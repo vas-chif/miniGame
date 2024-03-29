@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduzione JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+</head>
+
+<body>
+    <div class="score-container">
+        <h3>Il tuo punteggio <span id="player-score">0</span></h3>
+        <h3>Il punteggio del computer <span id="cpu-score">0</span></h3>
+    </div>
+    <div class="container">
+        <h1>Cosa scegli?</h1>
+        <img src="assest/sasso.png" alt="sasso" data-name="sasso" width="100" height="100" class="user-choice">
+        <img src="assest/carta.png" alt="carta" data-name="carta" width="100" height="100" class="user-choice">
+        <img src="assest/forbice.png" alt="forbice" data-name="forbice" width="100" height="100" class="user-choice">
+
+        <div id="computer-choice" class="margin-top">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <div class="margin-top">
+            <h3> <span id="result"></span></h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
